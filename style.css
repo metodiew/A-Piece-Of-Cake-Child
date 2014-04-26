@@ -1,0 +1,35 @@
+/*
+Theme Name: A Piece Of Cake Child
+Theme URI: http://apieceofadi.com/
+Description: A Piece Of Cake Child Theme
+Author: Stanko Metodiev
+Author URI: http://metodiew.com
+Template: A-Piece-Of-Cake
+Version: 1.0.0
+Tags: white, yellow, light, one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain:  apoc
+*/
+
+@import url("../A-Piece-Of-Cake/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic-ext,cyrillic);
+
+body {
+	font-family: 'Comfortaa', cursive;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Comfortaa', cursive;
+}
+
+h1.page-title,
+h1.entry-title {
+	font-family: 'Comfortaa', cursive;
+	font-size: 24px;
+	font-weight: normal;
+}
