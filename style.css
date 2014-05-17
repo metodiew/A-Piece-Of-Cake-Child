@@ -53,6 +53,16 @@ h1.entry-title {
 	margin-top: 15px;
 }
 
+#comments  .comment {
+	margin-bottom: 15px;
+}
+
+#comments .comment-content {
+	padding-right: 15px;
+	font-family: 'Verdana, Geneva, sans-serif';
+	font-size: 15px;
+}
+
 /* Custom Social Icons */
 .apoc-social-custom-wrapper {
   	margin-left: -10px;
@@ -134,4 +144,13 @@ h1.entry-title {
 
 .yarpp-thumbnails-horizontal .yarpp-thumbnail-title {
 	overflow: visible;
+}
+
+
+.yarpp-thumbnails-horizontal .yarpp-thumbnail {
+	border: none !important;
+}
+
+.yarpp-thumbnail img {
+	border-radius: 60px;
 }
