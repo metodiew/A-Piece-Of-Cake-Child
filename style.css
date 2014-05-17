@@ -10,7 +10,7 @@ Tags: white, yellow, light, one-column, two-columns, right-sidebar, custom-heade
 Text Domain:  apoc
 */
 
-@import url("../A-Piece-Of-Cake/style.css");
+@import url("../A-Piece-Of-Cake/css/style.css");
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
@@ -18,7 +18,7 @@ Text Domain:  apoc
 @import url(http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic-ext,cyrillic);
 
 body {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Comfortaa', cursive !important;
 	font-size: 14px;
 	font-weight: normal;
 }
@@ -32,4 +32,106 @@ h1.entry-title {
 	font-family: 'Comfortaa', cursive;
 	font-size: 24px;
 	font-weight: normal;
+}
+
+.home .entry-meta {
+	display: none !important;
+}
+
+.home .entry-footer .cat-links,
+.home .entry-footer .comments-link,
+.home .entry-footer .edit-link,
+.home .entry-footer .tags-links {
+	display: none;
+}
+
+#comments .form-allowed-tags {
+	display: none
+}
+
+#site-navigation {
+	margin-top: 15px;
+}
+
+/* Custom Social Icons */
+.apoc-social-custom-wrapper {
+  	margin-left: -10px;
+}
+.apoc-social-custom {
+ 	display: inline-block;
+ 	width: 47px;
+ 	height: 55px;
+ }
+ 
+ .apoc-social-custom.facebook {
+ 	background: url(img/social-icons.png );
+ 	background-repeat: no-repeat;
+ 	background-position: 0px 0px;
+ }
+ 
+ .apoc-social-custom.facebook:hover {
+ 	background-position: 2px -50px;
+ }
+ 
+ .apoc-social-custom.twitter {
+ 	background: url(img/social-icons.png );
+ 	background-repeat: no-repeat;
+ 	background-position: -50px 0px;
+ }
+ 
+ .apoc-social-custom.twitter:hover {
+ 	background-position: -49px -50px;
+ }
+ 
+ .apoc-social-custom.email {
+ 	background: url(img/social-icons.png );
+ 	background-repeat: no-repeat;
+ 	background-position: -100px 0px;
+ }
+ 
+ .apoc-social-custom.email:hover {
+ 	background-position: -99px -50px;
+ }
+ 
+ .apoc-social-custom.instagram {
+ 	background: url(img/social-icons.png );
+ 	background-repeat: no-repeat;
+ 	background-position: -148px 0px;
+ }
+ 
+ .apoc-social-custom.instagram:hover {
+ 	background-position: -146px -50px;
+  }
+  
+ .apoc-social-custom.pinterest {
+ 	background: url(img/social-icons.png );
+ 	background-repeat: no-repeat;
+ 	background-position: -200px 0px;
+ }
+ 
+ .apoc-social-custom.pinterest:hover {
+ 	background-position: -198px -50px;
+ }
+ 
+ .apoc-social-custom.rss {
+ 	background: url(img/social-icons.png );
+ 	background-repeat: no-repeat;
+ 	background-position: -250px 0px;
+ }
+ 
+ .apoc-social-custom.rss:hover {
+ 	background-position: -248px -50px;
+  }
+
+/* YARPP Styling */
+.yarpp-related {
+	margin-bottom: 25px;
+}
+
+.yarpp-thumbnails-horizontal .yarpp-thumbnail {
+	height: auto !important;
+}
+
+.yarpp-thumbnails-horizontal .yarpp-thumbnail-title {
+	overflow: visible;
 }
