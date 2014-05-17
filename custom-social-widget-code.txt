@@ -1,0 +1,8 @@
+<div class="apoc-social-custom-wrapper">
+	<a class="apoc-social-custom facebook" href="https://www.facebook.com/blog.adis?ref=hl" target="_blank"></a>
+	<a class="apoc-social-custom twitter" href="https://twitter.com/adi_vasileva" target="_blank"></a>
+	<a class="apoc-social-custom email" href="mailto:adriana@apieceofadi.com" target="_blank"></a>
+	<a class="apoc-social-custom instagram" href="http://instagram.com/adivasileva" target="_blank"></a>
+	<a class="apoc-social-custom pinterest" href="https://www.pinterest.com/tupsi/" target="_blank"></a>
+	<a class="apoc-social-custom rss" href="http://apieceofadi.com/feed/" target="_blank"></a>
+</div>
