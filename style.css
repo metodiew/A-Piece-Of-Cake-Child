@@ -5,7 +5,7 @@ Description: A Piece Of Cake Child Theme
 Author: Stanko Metodiev
 Author URI: http://metodiew.com
 Template: A-Piece-Of-Cake
-Version: 1.0.0
+Version: 1.1
 Tags: white, yellow, light, one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, sticky-post, translation-ready
 Text Domain:  apoc
 */
@@ -29,9 +29,19 @@ h1, h2, h3, h4, h5, h6 {
 
 h1.page-title,
 h1.entry-title {
+	text-align: center;
 	font-family: 'Comfortaa', cursive;
 	font-size: 24px;
 	font-weight: normal;
+}
+
+#wrapper {
+	margin-top: 15px !important;
+	border: 2px solid #68cef0;
+}
+
+.entry-meta {
+	text-align: center;
 }
 
 .home .entry-meta {
@@ -53,6 +63,41 @@ h1.entry-title {
 	margin-top: 15px;
 }
 
+#site-navigation a {
+	font-weight: normal !important;
+}
+
+#site-navigation .search-form {
+	float: right;
+}
+
+#site-navigation input[type="search"] {
+	height: 25px;
+	background: #68cef0 none repeat-x scroll 0 -800px;
+	font-size: 15px;
+}
+
+#site-navigation input[type="search"]::-webkit-input-placeholder {
+	color: #fff;
+}
+
+#site-navigation input[type="search"]:-moz-placeholder {
+	color: #fff;
+}
+
+#site-navigation input[type="search"]::-moz-placeholder {
+	color: #fff;
+}
+
+#site-navigation input[type="search"]:-ms-input-placeholder {
+   color: #fff;
+}
+
+#site-navigation .search-form .search-submit,
+#site-navigation .search-form .screen-reader-text {
+	display: none;
+}
+
 #comments  .comment {
 	margin-bottom: 15px;
 }
@@ -61,6 +106,44 @@ h1.entry-title {
 	padding-right: 15px;
 	font-family: 'Verdana, Geneva, sans-serif';
 	font-size: 15px;
+}
+
+a.more-link {
+	display: block;
+	width: 291px;
+	height: 45px;
+	margin-top: 15px;
+	background: url('img/read-more.png');
+}
+
+#apoc-search-form {
+	display: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {	
+	#apoc-search-form {
+		display: block;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	
+	#site-navigation .search-form {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#apoc-search-form {
+		display: block;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	
+	#site-navigation .search-form {
+		display: none;
+	}
 }
 
 /* Custom Social Icons */
