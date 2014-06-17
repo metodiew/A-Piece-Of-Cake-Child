@@ -20,7 +20,7 @@ add_filter( 'the_content_more_link', 'apoc_more_text', 10, 2 );
 function apoc_add_search_box_to_menu( $items, $args ) {
     
 	if ( $args->theme_location == 'primary' ) {
-        $items .= $items.get_search_form();
+        $items .= get_search_form();
     }
     
     return $items;

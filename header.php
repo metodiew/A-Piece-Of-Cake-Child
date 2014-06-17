@@ -42,6 +42,16 @@
 				<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="Header Image" >
 			</a>
 		<?php endif; // End header image check ?>
+
+		<div class="apoc-social-custom-wrapper">
+			<a class="apoc-social-custom facebook" href="https://www.facebook.com/blog.adis?ref=hl" target="_blank"></a>
+			<a class="apoc-social-custom twitter" href="https://twitter.com/adi_vasileva" target="_blank"></a>
+			<a class="apoc-social-custom email" href="mailto:adriana@apieceofadi.com" target="_blank"></a>
+			<a class="apoc-social-custom instagram" href="http://instagram.com/adivasileva" target="_blank"></a>
+			<a class="apoc-social-custom pinterest" href="https://www.pinterest.com/tupsi/" target="_blank"></a>
+			<a class="apoc-social-custom bloglovin" href="http://www.bloglovin.com/adivasileva" target="_blank"></a>
+			<a class="apoc-social-custom rss" href="http://apieceofadi.com/feed/" target="_blank"></a>
+		</div>
 		
 		<div id="apoc-search-form">
 			<?php get_search_form(); ?>
